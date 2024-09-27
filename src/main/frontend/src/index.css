@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.contexify {
+  border: 1px solid rgb(238, 238, 238)
+}
+
+* {
+  /* @apply text-gray-900; */
+
+  --contexify-menu-radius: 16px;
+  --contexify-menu-padding: 10px;
+  --contexify-menu-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
+
+  --contexify-activeItem-radius: 8px;
+}
